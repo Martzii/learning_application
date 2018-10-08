@@ -9,7 +9,7 @@
 
     </style>
 
-    <style name="Sommet" parent="android:Widget.TextView">
+    <style name="serif" parent="android:Widget.TextView">
         <item name="android:fontFamily">sans-serif-light</item>
     </style>
 

@@ -18,6 +18,10 @@
         </activity>
         <activity android:name=".login_screen" />
         <activity android:name=".login_forgot_password"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
