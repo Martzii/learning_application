@@ -17,11 +17,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".login_screen" />
-        <activity android:name=".login_forgot_password"></activity>
+        <activity android:name=".login_forgot_password" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".User_homepage"></activity>
     </application>
 
 </manifest>
