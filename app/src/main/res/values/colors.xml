@@ -3,4 +3,12 @@
     <color name="colorPrimary">#3f51b5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#26276d</color>
+    <color name="colorButton">#575ff9</color>
+    <color name="colorPrimaryJava">#1cb7c8</color>
+    <color name="colorPrimaryPurpleHeart">#7547D8</color>
+    <color name="colorPrimaryMountainWidow">#1abc9c</color>
+    <color name="colorCornFlowerBlue">#5758F7</color>
+    <color name="colorCinnabar">#e74c3c</color>
+    <color name="Saffron">#f4b42e</color>
+
 </resources>

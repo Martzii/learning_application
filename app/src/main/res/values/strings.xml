@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">INFS3634 Assignment</string>
+    <string name="settings">Settings</string>
+    <string name="welcome_back_martin">Welcome back Martin</string>
+    <string name="classes">Classes</string>
+    <string name="account">Account</string>
+    <string name="results">Results</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="space_ed">Space Ed</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="or_you_can_call_02_9385_1333">Or you can call (02) 9385 1333</string>
+    <string name="please_contact_unsw_it_via_itservicecentre_unsw_edu_au">Please contact UNSW IT via itservicecentre@unsw.edu.au</string>
+    <string name="back">back</string>
+    <string name="todo">TODO</string>
 </resources>

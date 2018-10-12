@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/Introduction"
-    tools:context=".login_screen">f
+    tools:context=".login_screen">
 
     <TextView
         android:id="@+id/textView"
@@ -16,7 +16,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/cabin"
-        android:text="Space Ed"
+        android:text="@string/space_ed"
         android:textColor="@android:color/background_light"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,7 +35,7 @@
         android:layout_marginTop="8dp"
         android:background="#575ff9"
         android:soundEffectsEnabled="true"
-        android:text="Login"
+        android:text="@string/login"
         android:textColor="@android:color/background_light"
         android:textColorLink="@android:color/holo_blue_dark"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -48,21 +48,20 @@
         android:layout_width="300dp"
         android:layout_height="46dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginEnd="56dp"
         android:layout_marginTop="8dp"
         android:background="#11000000"
         android:ems="10"
         android:fontFamily="@font/old_standard_tt"
-        android:hint="Username"
+        android:hint="@string/username"
         android:inputType="textPersonName"
-        android:password="false"
         android:singleLine="true"
         android:textColor="@android:color/background_light"
         android:textColorHint="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.07" />
+        app:layout_constraintVertical_bias="0.082" />
 
     <EditText
         android:id="@+id/password_edit_text"
@@ -75,17 +74,16 @@
         android:background="#11000000"
         android:ems="10"
         android:fontFamily="@font/old_standard_tt"
-        android:hint="Password"
+        android:hint="@string/password"
         android:inputType="textPersonName"
-        android:password="true"
         android:textColor="@android:color/background_light"
         android:textColorHint="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/username_edit_text"
-        app:layout_constraintVertical_bias="0.066" />
+        app:layout_constraintVertical_bias="0.078" />
 
     <TextView
         android:id="@+id/forgot_password_textview"
@@ -95,7 +93,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Forgot your password?"
+        android:text="@string/forgot_your_password"
         android:textColor="@color/cardview_light_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -115,7 +113,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/spaceship" />
+        app:srcCompat="@drawable/spaceship"
+        android:contentDescription="TODO" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -131,18 +130,20 @@
         app:layout_constraintStart_toStartOf="@+id/username_edit_text"
         app:layout_constraintTop_toTopOf="@+id/username_edit_text"
         app:layout_constraintVertical_bias="0.8"
-        app:srcCompat="@drawable/avatar" />
+        app:srcCompat="@drawable/avatar"
+        android:contentDescription="TODO" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="36dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="@+id/password_edit_text"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/password_edit_text"
         app:layout_constraintHorizontal_bias="0.984"
         app:layout_constraintStart_toStartOf="@+id/password_edit_text"
         app:layout_constraintTop_toTopOf="@+id/password_edit_text"
