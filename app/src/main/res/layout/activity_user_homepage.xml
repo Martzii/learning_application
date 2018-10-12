@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/Introduction"
     tools:context=".User_homepage">
 
     <Button
@@ -12,7 +11,6 @@
         android:layout_width="0dp"
         android:layout_height="120dp"
         android:layout_marginBottom="8dp"
-        android:backgroundTint="@color/Saffron"
         android:text="@string/settings"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +42,6 @@
         android:layout_width="0dp"
         android:layout_height="120dp"
         android:layout_marginBottom="8dp"
-        android:backgroundTint="@color/colorPrimaryJava"
         android:text="@string/classes"
         app:layout_constraintBottom_toTopOf="@+id/setting_btn"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,7 +55,6 @@
         android:layout_width="0dp"
         android:layout_height="120dp"
         android:layout_marginBottom="8dp"
-        android:backgroundTint="@color/colorPrimaryMountainWidow"
         android:text="@string/results"
         app:layout_constraintBottom_toTopOf="@+id/class_btn"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,14 +68,12 @@
         android:layout_width="0dp"
         android:layout_height="120dp"
         android:layout_marginBottom="8dp"
-        android:backgroundTint="@android:color/holo_blue_dark"
         android:text="@string/account"
         app:layout_constraintBottom_toTopOf="@+id/results_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline"
-        tools:backgroundTint="@color/colorButton" />
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
