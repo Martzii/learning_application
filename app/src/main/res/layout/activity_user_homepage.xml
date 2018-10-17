@@ -131,6 +131,15 @@
             app:layout_constraintTop_toBottomOf="@+id/textView4"
             app:layout_constraintVertical_bias="0.0" />
 
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="157dp"
+            android:layout_height="163dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="100dp"
+            app:srcCompat="@drawable/user_homepage_image" />
+
     </RelativeLayout>
 
     <android.support.constraint.Guideline

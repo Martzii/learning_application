@@ -104,14 +104,7 @@
             android:layout_marginTop="8dp"
             app:srcCompat="@drawable/network_icon" />
 
-        <ImageView
-            android:id="@+id/add_class_img"
-            android:layout_width="match_parent"
-            android:layout_height="86dp"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/class_img"
-            android:contentDescription="@string/todo"
-            app:srcCompat="@drawable/add_class_background" />
+
 
         <TextView
             android:id="@+id/textView6"

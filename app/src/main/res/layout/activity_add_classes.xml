@@ -24,12 +24,10 @@
             android:id="@+id/prompt1_text_view"
             android:layout_width="wrap_content"
             android:layout_height="42dp"
-            android:layout_alignBottom="@+id/app_bar"
-            android:layout_centerHorizontal="true"
-            android:layout_marginLeft="130dp"
+            android:layout_marginStart="130dp"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/cabin"
-            android:text="Add Classes"
+            android:text="@string/add_classes"
             android:textAlignment="textStart"
             android:textColor="@android:color/white"
             android:textSize="30sp"
@@ -51,23 +49,21 @@
             android:id="@+id/textView10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="233dp"
+            android:layout_marginBottom="288dp"
             android:fontFamily="sans-serif"
-            android:text="More to come!"
+            android:text="@string/more_to_come"
             android:textSize="25sp" />
 
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/textView10"
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="173dp"
+            android:layout_height="167dp"
+            android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="-233dp"
-            android:fontFamily="@font/cabin"
-            android:text="Sorry"
-            android:textSize="30sp" />
+            android:layout_marginTop="163dp"
+            app:srcCompat="@drawable/add_classes_image" />
     </RelativeLayout>
 
     <android.support.constraint.Guideline
