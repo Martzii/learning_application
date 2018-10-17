@@ -6,6 +6,7 @@
     <solid
         android:color="#575ff9"
         />
+
     <padding
         android:left="0dp"
         android:top="0dp"

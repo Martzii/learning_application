@@ -48,7 +48,7 @@
         android:layout_width="300dp"
         android:layout_height="46dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="56dp"
+        android:layout_marginEnd="40dp"
         android:layout_marginTop="8dp"
         android:background="#11000000"
         android:ems="10"
@@ -61,7 +61,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.082" />
+        app:layout_constraintVertical_bias="0.077" />
 
     <EditText
         android:id="@+id/password_edit_text"

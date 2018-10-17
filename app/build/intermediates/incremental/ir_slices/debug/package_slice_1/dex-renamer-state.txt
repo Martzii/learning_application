@@ -1,0 +1,4 @@
+#Wed Oct 17 20:47:20 AEDT 2018
+base.0=C\:\\Users\\TEMP.DESKTOP-HSAFFLG\\Documents\\GitHub\\learning_application\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+path.0=classes.dex
+renamed.0=classes.dex
