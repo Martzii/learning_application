@@ -23,7 +23,10 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".User_homepage"></activity>
+        <activity android:name=".User_homepage" />
+        <activity android:name=".class_module" />
+        <activity android:name=".user_account" />
+        <activity android:name=".add_classes"></activity>
     </application>
 
 </manifest>

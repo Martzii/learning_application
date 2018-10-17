@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".User_homepage"
+    tools:context=".class_module"
     android:id="@+id/drawer_layout">
 
     <FrameLayout
@@ -44,8 +44,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:addStatesFromChildren="false"
         android:orientation="vertical">
-
 
 
         <ImageView
@@ -55,8 +55,8 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginTop="97dp"
-            app:srcCompat="@drawable/class_background"
-            android:contentDescription="@string/todo" />
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/class_background" />
 
         <TextView
             android:id="@+id/textView4"
@@ -130,6 +130,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4"
             app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/network_icon"
+            android:text="Button"
+            android:visibility="invisible" />
 
     </RelativeLayout>
 
