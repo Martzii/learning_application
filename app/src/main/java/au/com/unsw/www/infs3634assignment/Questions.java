@@ -40,7 +40,7 @@ public class Questions {
         return option1;
     }
 
-    public void setOption1_id(String option1) {
+    public void setOption1(String option1) {
         this.option1 = option1;
     }
 

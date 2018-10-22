@@ -2,9 +2,14 @@ package au.com.unsw.www.infs3634assignment;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.DatabaseErrorHandler;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import au.com.unsw.www.infs3634assignment.Quiz_Container.*;
 
 public class DatabaseClass extends SQLiteOpenHelper {
@@ -62,6 +67,26 @@ public class DatabaseClass extends SQLiteOpenHelper {
         cv.put(QuestionsTable.Right_Answer, questions.getRightAnswer());
         myDb.insert(QuestionsTable.Table_Name, null, cv);
 
+    }
 
+    public List<Questions> getAllQuestions(){
+        List<Questions> questionsList = new ArrayList<>();
+        myDb = getReadableDatabase();
+        Cursor c = myDb.rawQuery("SELECT* FROM " + QuestionsTable.Table_Name, null);
+
+        if (c.moveToFirst()){
+            do{
+                Questions questions = new Questions();
+                questions.setqContent(c.getString(c.getColumnIndex(QuestionsTable.Question_Content)));
+                questions.setOption1(c.getString(c.getColumnIndex(QuestionsTable.Option_One)));
+                questions.setOption2(c.getString(c.getColumnIndex(QuestionsTable.Option_Two)));
+                questions.setOption3(c.getString(c.getColumnIndex(QuestionsTable.Option_Three)));
+                questions.setRightAnswer(c.getInt(c.getColumnIndex(QuestionsTable.Right_Answer)));
+                questionsList.add(questions);
+            } while (c.moveToNext());
+        }
+
+        c.close();
+        return questionsList;
     }
 }
