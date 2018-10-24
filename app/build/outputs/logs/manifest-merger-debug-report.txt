@@ -80,7 +80,7 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\TEMP.DESKTOP-HSAFFLG
 		ADDED from C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\src\main\AndroidManifest.xml:11:9-40
-activity#au.com.unsw.www.infs3634assignment.MainActivity
+activity#au.com.unsw.www.infs3634assignment.QuizActivity
 ADDED from C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
 		ADDED from C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\src\main\AndroidManifest.xml:12:19-47

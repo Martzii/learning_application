@@ -17,7 +17,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="au.com.unsw.www.infs3634assignment.MainActivity" >
+        <activity android:name="au.com.unsw.www.infs3634assignment.QuizActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

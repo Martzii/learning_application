@@ -2,13 +2,13 @@
 <instant-run
     abi="x86"
     api-level="28"
-    build-mode="FULL"
+    build-mode="HOT_WARM"
     density="420dpi"
     format="10"
     plugin-version="3.1.4"
-    timestamp="1539769625024"
+    timestamp="1540393245743"
     token="-545455218533890874"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
@@ -18,81 +18,21 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="623" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1016" />
+        duration="0" />
 
     <artifact
         location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
         type="SPLIT" />
-    <artifact
-        location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1539769625024"
+        timestamp="1540390295545"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -101,11 +41,84 @@
             location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1540393038357"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1540393245743"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\TEMP.DESKTOP-HSAFFLG\Documents\GitHub\learning_application\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

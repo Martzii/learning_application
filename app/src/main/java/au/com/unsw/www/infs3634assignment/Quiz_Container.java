@@ -9,13 +9,10 @@ public final class Quiz_Container {
     public static class QuestionsTable implements BaseColumns{
         public static final String Table_Name = "quiz_questions";
         public static final String Question_Content = "question";
-        public static final String Option_One = "option one";
-        public static final String Option_Two = "option two";
-        public static final String Option_Three = "option three";
+        public static final String Option_One = "option1";
+        public static final String Option_Two = "option2";
+        public static final String Option_Three = "option3";
         public static final String Right_Answer = "right answer";
-
-
-
 
 
     }

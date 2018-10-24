@@ -29,14 +29,16 @@ public class DatabaseClass extends SQLiteOpenHelper {
 
         final String Create_Questions_Table = "CREATE TABLE " +
                 QuestionsTable.Table_Name + "(" +
-                QuestionsTable._ID + "INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                QuestionsTable.Option_One + "TEXT," +
-                QuestionsTable.Option_Two + "TEXT," +
-                QuestionsTable.Option_Three + "TEXT," +
-                QuestionsTable.Right_Answer + "INTEGER" +
+                QuestionsTable._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                QuestionsTable.Option_One + " TEXT, " +
+                QuestionsTable.Option_Two + " TEXT, " +
+                QuestionsTable.Option_Three + " TEXT, " +
+                QuestionsTable.Right_Answer + " INTEGER" +
                 ")";
 
+
         myDb.execSQL(Create_Questions_Table);
+        fillQuestionsTable();
     }
 
     @Override
